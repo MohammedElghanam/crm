@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      {/* <header className="fixed w-full">
+      <header className="fixed w-full">
         <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" className="flex items-center">
@@ -46,8 +46,8 @@ export default function Home() {
                 </div>
             </div>
         </nav>
-      </header> */}
-      {/* <section className="bg-white dark:bg-gray-900">
+      </header>
+      <section className="bg-white dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
                 <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Building digital \n products & brands.</h1>
@@ -77,20 +77,20 @@ export default function Home() {
                     <div>
                       <a href="#" className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
                         Explore Legality Guide
-                        <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                       </a>
                     </div>
                     <div>
                       <a href="#" className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
                           Visit the Trust Center
-                          <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                          <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                       </a>
                       </div>
                 </div>
             </div>
             <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                 <div>
-                    <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"></path></svg>
+                    <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clipRule="evenodd"></path></svg>
                     <h3 className="mb-2 text-2xl font-bold dark:text-white">99.99% uptime</h3>
                     <p className="font-light text-gray-500 dark:text-gray-400">For Landwind, with zero maintenance downtime</p>
                 </div>
@@ -100,7 +100,7 @@ export default function Home() {
                     <p className="font-light text-gray-500 dark:text-gray-400">Trusted by over 600 milion users around the world</p>
                 </div>
                 <div>
-                    <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path></svg>
+                    <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clipRule="evenodd"></path></svg>
                     <h3 className="mb-2 text-2xl font-bold dark:text-white">100+ countries</h3>
                     <p className="font-light text-gray-500 dark:text-gray-400">Have used Landwind to create functional websites</p>
                 </div>
@@ -111,7 +111,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-      </section> */}
+      </section>
 
       {/* <section className="bg-gray-50 dark:bg-gray-800">
         <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
@@ -146,263 +146,6 @@ export default function Home() {
 
 
 
-
-
-
-<header className="flex flex-col items-center justify-center gap-2 px-4 py-24 bg-lightblue-1 shadow-sm w-full bg-gray-300">
-            <h1
-                className="text-3xl md:text-6xl font-extrabold text-primary max-w-screen-lg text-center capitalize tracking-tighter mb-24">
-                Réalisez vos projets<br />en trouvant un professionnel<br />proche de chez vous</h1>
-
-
-<div className="grid justify-center items-center px-32 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mb-24 bg-gray-300">
-  <div className="w-[300px] rounded-3xl py-4 bg-lightblue-2 xl:translate-y-12 h-[450px] xl:order-1 md:order-4 order-3 bg-red-600">
-    <h2 className="text-2xl font-bold text-primary text-center capitalize tracking-tighter mb-8">
-      Plus de 3000 <br />professionnels
-    </h2>
-    <Image 
-      alt="professionals icon" 
-      loading="lazy" 
-      width={300}
-      height={300} 
-      decoding="async" 
-      className="w-[310px] h-[300px]" 
-      style={{ color: 'transparent' }} 
-      src="professionals.svg" 
-    />
-  </div>
-  
-  <div className="w-[300px] rounded-3xl bg-primary h-[600px] py-4 xl:order-2 md:order-3 order-2 bg-blue-600">
-    <h3 className="text-xl font-bold text-white text-center capitalize tracking-tighter pb-2 mb-2 border-b border-lightblue-1">
-      Particuliers
-    </h3>
-    <h2 className="text-2xl font-bold text-white text-center capitalize tracking-tighter mt-4 mb-4">
-      J'ai des travaux<br />à faire ?
-    </h2>
-    <form className="space-y-3 text-white px-8 w-full" action="#" encType="multipart/form-data" method="POST">
-      
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rfl2unb:-form-item">
-          Métier
-        </label>
-        <button
-          className="inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 w-full justify-between bg-transparent text-muted-foreground"
-          role="combobox"
-          id=":Rfl2unb:-form-item"
-          aria-describedby=":Rfl2unb:-form-item-description"
-          aria-invalid="false"
-          type="button"
-          aria-haspopup="dialog"
-          aria-expanded="false"
-          aria-controls="radix-:Rafl2unb:"
-          data-state="closed"
-        >
-          Selectionner métier
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevrons-up-down opacity-50">
-            <path d="m7 15 5 5 5-5"></path>
-            <path d="m7 9 5-5 5 5"></path>
-          </svg>
-        </button>
-      </div>
-      
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-      
-      {/* Additional form fields with similar structure */}
-      {/* ... */}
-      
-      <div>
-        <button
-          className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80 h-9 px-4 py-2 w-full mt-8"
-          type="submit"
-        >
-          Etre contacté!
-        </button>
-      </div>
-    </form>
-  </div>
-  
-  <div className="w-[300px] rounded-3xl h-[600px] py-4 bg-lightblue-2 xl:order-3 md:order-1 order-1 bg-blue-300">
-    <h3 className="text-xl font-bold text-white text-center capitalize tracking-tighter pb-2 mb-2 border-b border-lightblue-1">
-      Particuliers
-    </h3>
-    <h2 className="text-2xl font-bold text-white text-center capitalize tracking-tighter mt-4 mb-4">
-      J'ai des travaux<br />à faire ?
-    </h2>
-    <form className="space-y-3 text-white px-8 w-full" action="#" encType="multipart/form-data" method="POST">
-      
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rfl2unb:-form-item">
-          Métier
-        </label>
-        <button
-          className="inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 w-full justify-between bg-transparent text-muted-foreground"
-          role="combobox"
-          id=":Rfl2unb:-form-item"
-          aria-describedby=":Rfl2unb:-form-item-description"
-          aria-invalid="false"
-          type="button"
-          aria-haspopup="dialog"
-          aria-expanded="false"
-          aria-controls="radix-:Rafl2unb:"
-          data-state="closed"
-        >
-          Selectionner métier
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevrons-up-down opacity-50">
-            <path d="m7 15 5 5 5-5"></path>
-            <path d="m7 9 5-5 5 5"></path>
-          </svg>
-        </button>
-      </div>
-      
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" htmlFor=":Rnl2unb:-form-item">
-          Nom
-        </label>
-        <input
-          className="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
-          placeholder="Dupont"
-          id=":Rnl2unb:-form-item"
-          aria-describedby=":Rnl2unb:-form-item-description"
-          aria-invalid="false"
-          name="client_name"
-          value=""
-        />
-      </div>
-      
-      {/* Additional form fields with similar structure */}
-      {/* ... */}
-      
-      <div>
-        <button
-          className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80 h-9 px-4 py-2 w-full mt-8"
-          type="submit"
-        >
-          Etre contacté!
-        </button>
-      </div>
-    </form>
-  </div>
-  
-  <div className="rounded-3xl py-4 bg-lightblue-3 xl:translate-y-12 ml-12 relative w-[200px] h-[450px] xl:order-4 md:order-2 order-4 bg-yellow-500">
-    <h2 className="text-2xl font-bold text-white text-center capitalize tracking-tighter mb-8 ">
-      Plus de 1000<br />Chantiers
-    </h2>
-    <img
-      alt="construction site icon"
-      loading="lazy"
-      width={377}
-      height={372}
-      decoding="async"
-      className="absolute top-[45px] left-[-89px] max-w-[377px]"
-      style={{ color: 'transparent' }}
-      src="chantier.svg"
-    />
-  </div>
-</div>
-</header>
     </>
   );
 }
